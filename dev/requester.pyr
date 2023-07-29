@@ -1,0 +1,19 @@
+get( 
+	"http://localhost/API/books",
+	params={} # => Obtiene todos los libros
+)
+
+get( 
+	"http://localhost/API/books",
+	params={ "b" : "2" } # => Obtiene un libro según el id
+)
+
+get( 
+	"http://localhost/API/books",
+	params={ "b" : "154236897542" } # => Obtiene un libro según el SKU
+)
+
+get( 
+	"http://localhost/API/books",
+	params={ "b" : 5 } # => Devuelve un estado 204
+)
