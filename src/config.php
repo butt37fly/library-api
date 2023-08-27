@@ -6,3 +6,4 @@ define( 'ERROR',  array(
 ));
 
 define( 'SERVER_URI', 'http://localhost/API/' );
+define( 'ABSPATH', __DIR__ );

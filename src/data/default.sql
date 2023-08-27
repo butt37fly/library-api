@@ -1,10 +1,3 @@
--- Crea la base de datos
-DROP DATABASE IF EXISTS library;
-
-CREATE DATABASE library;
-
-USE library;
-
 DROP TABLE IF EXISTS authors; 
 
 -- Crea la tabla de autores

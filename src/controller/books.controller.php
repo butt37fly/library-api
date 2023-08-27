@@ -1,11 +1,12 @@
 <?php
 
 require( "../config.php" );
-require( "../classes/class-db.php" );
+require( "../classes/db.class.php" );
 
 /**
  * Obtiene en formato json todos los libros de la db	
  * 
+ * @todo Parámetro adicional para obtener libros específicos
  * @return mixed
  */
 function get_books(){

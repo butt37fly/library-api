@@ -3,5 +3,5 @@ RewriteEngine On
 
 RewriteRule ^books src/router/books.router.php
 
-php_flag display_startup_errors on
-php_flag display_errors on
+# php_flag display_startup_errors on
+# php_flag display_errors on
